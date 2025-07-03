@@ -1,34 +1,36 @@
-## 📸 Face Detection using OpenCV
+## Face Detection using OpenCV
 
-### 🔍 Overview
+### Overview
 
-This project demonstrates real-time face detection using computer vision techniques implemented in a Jupyter Notebook. It utilizes OpenCV’s powerful tools to detect human faces from images or video input (e.g., webcam or uploaded images).
+This project demonstrates real-time face detection using computer vision techniques. It uses the **YOLOv8 (You Only Look Once)** object detection model from the Ultralytics library. The model is trained and evaluated using a custom dataset obtained via **Roboflow** . It detects human faces from images (e.g. uploaded images).
 
-### 📁 Files in the Repo
+### Files in the Repo
 
-face-detection.ipynb – Jupyter Notebook containing the face detection code and explanations.
+face-detection.ipynb – Notebook containing the face detection code.
 
 README.md – Project overview and usage guide.
 
-### 🧠 Technologies Used
-Python 3
+## Features
 
-Jupyter Notebook
+- Custom dataset download and setup from Roboflow
+- Training a YOLOv8 model on the dataset
+- Evaluation of model performance
+- Visualization of predictions on validation images
+- Draws bounding boxes around detected faces.
 
-OpenCV (cv2)
+### Technologies Used
+- Python 3
 
-NumPy
+- Kaggle Notebook
 
-### ⚙️ How It Works
-Loads image/video input.
+- [Ultralytics YOLOv8](https://docs.ultralytics.com/)
 
-Converts frames to grayscale.
+- OpenCV
 
-Uses a Haar Cascade classifier (or equivalent) to detect faces.
+- IPython display for showing predictions
 
-Draws bounding boxes around detected faces.
 
-### 🚀 How to Run
+### How to Run
 Option 1: Run Locally
 Clone the repository:
 
@@ -43,23 +45,20 @@ bash
 Copy
 Edit
 pip install opencv-python numpy
-Launch Jupyter Notebook:
+Launch Kaggle Notebook:
 
 bash
 Copy
 Edit
-jupyter notebook
+kaggle notebook
 Open and run face-detection.ipynb.
 
-### 📷 Sample Output
+### Sample Output
 (Add a screenshot or image here if possible to show face detection in action)
 
-### 📌 Notes
+###  Notes
 
 You can replace the input image source as per your needs.
 
-### 📄 License
+### License
 This project is open-source and available under the MIT License.
-
-### 🤝 Acknowledgements
-OpenCV Documentation
