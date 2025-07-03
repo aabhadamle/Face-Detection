@@ -31,15 +31,37 @@ README.md – Project overview and usage guide.
 
 
 ### How to Run
-Option 1: Run Locally
+
+#### 1. Run Locally
+
 Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Install the required packages:
 
 bash
 Copy
 Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install required packages:
+pip install ultralytics notebook
+Launch Jupyter Notebook:
+
+bash
+Copy
+Edit
+jupyter notebook
+Then open and run face-detection.ipynb.
+
+2. Run on Kaggle
+Go to https://www.kaggle.com/
+
+Create a new Notebook
+
+Upload the file: face-detection.ipynb
+
+Run all the cells
+
 
 bash
 Copy
