@@ -37,13 +37,17 @@ README.md – Project overview and usage guide.
 Clone the repository:
 
 `git clone https://github.com/your-username/your-repo-name.git`
+
 `cd your-repo-name`
+
 Install the required packages:
 
 `pip install ultralytics notebook`
+
 Launch Jupyter Notebook:
 
 `jupyter notebook`
+
 Then open and run face-detection.ipynb.
 
 #### 2. Run on Kaggle
