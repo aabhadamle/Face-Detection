@@ -1,24 +1,24 @@
 ## 📸  Face Detection using OpenCV
 
-### Overview
+### 🔍 Overview
 
 This project demonstrates real-time face detection using computer vision techniques. It uses the **YOLOv8 (You Only Look Once)** object detection model from the Ultralytics library. The model is trained and evaluated using a custom dataset obtained via **Roboflow** . It detects human faces from images (e.g. uploaded images).
 
-### Files in the Repo
+### 📁 Files in the Repo
 
 face-detection.ipynb – Notebook containing the face detection code.
 
 README.md – Project overview and usage guide.
 
-### Features
+### ✨ Features
 
 - Custom dataset download and setup from Roboflow
 - Training a YOLOv8 model on the dataset
-- Evaluation of model performance
+- Evaluation of model performance 📊
 - Visualization of predictions on validation images
 - Draws bounding boxes around detected faces.
 
-### Technologies Used
+### 🧠 Technologies Used
 - Python 3
 
 - Kaggle Notebook
@@ -30,7 +30,7 @@ README.md – Project overview and usage guide.
 - IPython display for showing predictions
 
 
-### How to Run
+### ⚙️ How to Run
 
 #### 1. Run Locally
 
@@ -59,9 +59,9 @@ Then open and run face-detection.ipynb.
 
 4. Run all the cells
 
-###  Notes
+###  📌 Notes
 
 You can replace the input image source as per your needs.
 
-### License
+### 📄 License
 This project is open-source and available under the MIT License.
