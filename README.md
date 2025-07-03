@@ -36,44 +36,24 @@ README.md – Project overview and usage guide.
 
 Clone the repository:
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+`git clone https://github.com/your-username/your-repo-name.git`
+`cd your-repo-name`
 Install the required packages:
 
-bash
-Copy
-Edit
-pip install ultralytics notebook
+`pip install ultralytics notebook`
 Launch Jupyter Notebook:
 
-bash
-Copy
-Edit
-jupyter notebook
+`jupyter notebook`
 Then open and run face-detection.ipynb.
 
-2. Run on Kaggle
-Go to https://www.kaggle.com/
+#### 2. Run on Kaggle
+1. Go to https://www.kaggle.com/
 
-Create a new Notebook
+2. Create a new Notebook
 
-Upload the file: face-detection.ipynb
+3. Upload the file: face-detection.ipynb
 
-Run all the cells
-
-
-bash
-Copy
-Edit
-pip install opencv-python numpy
-Launch Kaggle Notebook:
-
-bash
-Copy
-Edit
-kaggle notebook
-Open and run face-detection.ipynb.
+4. Run all the cells
 
 ###  Notes
 
