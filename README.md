@@ -1,4 +1,4 @@
-## Face Detection using OpenCV
+## 📸  Face Detection using OpenCV
 
 ### Overview
 
@@ -10,7 +10,7 @@ face-detection.ipynb – Notebook containing the face detection code.
 
 README.md – Project overview and usage guide.
 
-## Features
+### Features
 
 - Custom dataset download and setup from Roboflow
 - Training a YOLOv8 model on the dataset
@@ -52,9 +52,6 @@ Copy
 Edit
 kaggle notebook
 Open and run face-detection.ipynb.
-
-### Sample Output
-(Add a screenshot or image here if possible to show face detection in action)
 
 ###  Notes
 
