@@ -29,6 +29,10 @@ README.md – Project overview and usage guide.
 
 - IPython display for showing predictions
 
+### Output:
+
+<img width="589" alt="face" src="https://github.com/user-attachments/assets/fe5d38e7-186a-4b00-97c3-2b9a60424b25" />
+
 
 ### ⚙️ How to Run
 
